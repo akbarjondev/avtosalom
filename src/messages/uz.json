@@ -1,0 +1,40 @@
+{
+	"Header": {
+		"categories": {
+			"all": "Barcha avtomashinalar",
+			"new": "Yangi avtolar",
+			"old": "Eski avtolar"
+		},
+		"credit": "Kreditga?",
+		"description": "{{offers}} taklif, ulardan {{outOf}} tasi faqat Avto.ru saytida joylashtirilgan.",
+		"magazine": {
+			"allButton": "Barcha materiallar",
+			"description": "Yangiliklar, sharhlar, maqolalar",
+			"title": "Jurnal"
+		},
+		"showButton": "{{offers}} ni taklifni ko'rsatish",
+		"types": {
+			"assistant": "Yordamchi",
+			"brand": "Brand"
+		}
+	},
+	"Pages": {
+		"advertisement": "Reklamalar",
+		"catalog": "Katalog",
+		"dealers": "Dillerlar",
+		"logbook": "LogBook",
+		"region": "Istalgan xudud",
+		"reviews": "Sharhlar",
+		"video": "Video"
+	},
+	"Top": {
+		"comparisons": "Taqqoslash",
+		"favorites": "Saqlanganlar",
+		"free_post": "Tekin e'lon",
+		"login": "Kirish",
+		"messages": "Xabarlar",
+		"search": "Qidirish",
+		"search_placeholder": "E'lon bo'yicha qidirish",
+		"sell": "Sotaman"
+	}
+}

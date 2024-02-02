@@ -1,0 +1,40 @@
+{
+	"Header": {
+		"categories": {
+			"all": "All cars",
+			"new": "New cars",
+			"old": "Old cars"
+		},
+		"credit": "Loan?",
+		"description": "{{offers}} offers, of which {{outOf}} are posted only on Avto.ru",
+		"magazine": {
+			"allButton": "All materials",
+			"description": "News, reviews, articles",
+			"title": "Magazine"
+		},
+		"showButton": "Show {{offers}} offers",
+		"types": {
+			"assistant": "Assistant",
+			"brand": "Brand"
+		}
+	},
+	"Pages": {
+		"advertisement": "Advertisements",
+		"catalog": "Catalog",
+		"dealers": "Dealers",
+		"logbook": "LogBook",
+		"region": "Any region",
+		"reviews": "Reviews",
+		"video": "Video"
+	},
+	"Top": {
+		"comparisons": "Comparisons",
+		"favorites": "Favorites",
+		"free_post": "Free post",
+		"login": "Login",
+		"messages": "Messages",
+		"search": "Search",
+		"search_placeholder": "Search by advertisements",
+		"sell": "I sell"
+	}
+}
