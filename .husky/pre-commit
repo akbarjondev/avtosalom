@@ -1,1 +1,1 @@
-npm lint && npm typescript
+npm run lint && npm run typescript
