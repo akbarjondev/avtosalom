@@ -7,9 +7,6 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "AvtoSalom",
   description: "Avtomobillarni sotib olish va sotish uchun eng yaxshi joy",
-  icons: [
-    '../favicon.ico'
-  ]
 };
 
 export default function RootLayout({
