@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { Link } from '@/config/navigation'
 import useEmblaCarousel from 'embla-carousel-react'
 import AutoPlay from 'embla-carousel-autoplay'
+import { Button } from '../ui/button'
+import { cn } from '@/lib/utils'
 
 interface MagazineProps {
   className?: string
@@ -15,10 +17,10 @@ export const Magazine = ({ className }: MagazineProps) => {
   const locale = useLocale()
 
   return (
-    <div className={className}>
+    <div className={cn('flex flex-col', className)}>
       <h1 className='mb-3 text-3xl font-bold text-black'>{t('title')}</h1>
       <p className='text-sm text-gray-500'>{t('description')}</p>
-      <div className='embla'>
+      <div className='embla mb-6'>
         <div ref={embleRef} className='mt-10 h-[350px] overflow-hidden'>
           <ol className='flex flex-col gap-5'>
             {news.map((news, index) => (
@@ -27,7 +29,7 @@ export const Magazine = ({ className }: MagazineProps) => {
                 className='hover:text-primary-red'
                 key={news.title[locale] + index}
               >
-                <article className='flex flex-row-reverse items-center gap-2.5'>
+                <article className='flex h-[72px] flex-row-reverse items-center gap-2.5'>
                   <h4 className='text-[15px] leading-4'>
                     {news.title[locale]}
                   </h4>
@@ -44,6 +46,9 @@ export const Magazine = ({ className }: MagazineProps) => {
           </ol>
         </div>
       </div>
+      <Button className='bg-blue-200 text-black hover:text-white'>
+        {t('button')}
+      </Button>
     </div>
   )
 }

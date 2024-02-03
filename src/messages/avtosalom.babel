@@ -22,6 +22,21 @@
 					<folder_node>
 						<name>Header</name>
 						<children>
+							<concept_node>
+								<name>button</name>
+								<description/>
+								<comment/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>uz-Latn-UZ</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
 							<folder_node>
 								<name>categories</name>
 								<children>
@@ -156,7 +171,7 @@
 								<name>magazine</name>
 								<children>
 									<concept_node>
-										<name>allButton</name>
+										<name>button</name>
 										<description/>
 										<comment/>
 										<translations>
@@ -202,21 +217,6 @@
 									</concept_node>
 								</children>
 							</folder_node>
-							<concept_node>
-								<name>showButton</name>
-								<description/>
-								<comment/>
-								<translations>
-									<translation>
-										<language>en-US</language>
-										<approved>false</approved>
-									</translation>
-									<translation>
-										<language>uz-Latn-UZ</language>
-										<approved>false</approved>
-									</translation>
-								</translations>
-							</concept_node>
 							<folder_node>
 								<name>types</name>
 								<children>

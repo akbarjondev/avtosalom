@@ -1,5 +1,6 @@
 {
 	"Header": {
+		"button": "Show {offers} offers",
 		"categories": {
 			"all": "All cars",
 			"new": "New cars",
@@ -13,11 +14,10 @@
 		"credit": "Loan?",
 		"description": "{offers} offers, of which {outOf} are posted only on Avto.ru",
 		"magazine": {
-			"allButton": "All materials",
+			"button": "All materials",
 			"description": "News, reviews, articles",
 			"title": "Magazine"
 		},
-		"showButton": "Show {{offers}} offers",
 		"types": {
 			"assistant": "Assistant",
 			"brand": "Brand"

@@ -11,6 +11,7 @@ import { Checkbox } from '../ui/checkbox'
 import { Link } from '@/config/navigation'
 import { cn, numberRandomizer } from '@/lib/utils'
 import { Magazine } from '../Magazine/Magazine'
+import { Button } from '../ui/button'
 
 interface PageFiltersProps {
   className?: string
@@ -27,7 +28,7 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
   return (
     <section className={cn('mb-52', className)}>
       <div className='wrapper mt-9 grid grid-cols-9 gap-7'>
-        <div className='left col-span-7 grow'>
+        <div className='left col-span-7 flex h-full grow flex-col'>
           <div className='flex items-center justify-between'>
             <div>
               <h1 className='mb-3 text-3xl font-bold text-black'>
@@ -93,6 +94,9 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
                 </li>
               ))}
           </ol>
+          <Button className='mt-auto self-end bg-primary-blue px-20 text-white'>
+            {tHeaders('button', { offers: '122 455' })}
+          </Button>
         </div>
         <Magazine className='right col-span-2' />
       </div>
