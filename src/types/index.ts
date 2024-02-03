@@ -13,13 +13,14 @@ export type TopLink = {
 }
 
 export interface CarParams {
-  fuel_type?: string
+  fuel_type?: 'gas' | 'diesel' | 'electricity'
   model?: string
-  cylinder?: string
+  cylinders?: string
   class?: string
   make?: string
   year?: string
   limit?: number
+  transmission?: 'automatic' | 'manual'
 }
 
 export type Tabs = 'all' | 'new' | 'old' | 'brand' | 'general'
