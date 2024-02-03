@@ -40,7 +40,9 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
                 })}
               </p>
             </div>
-            <Image alt='' {...teaserImage} />
+            <Link href={'/'}>
+              <Image alt='' {...teaserImage} />
+            </Link>
           </div>
           <div className='mt-9 flex items-center'>
             <FilterPills
@@ -49,7 +51,7 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
               setActiveTab={setTab}
             />
             <label className='ml-7 mr-auto inline-flex cursor-pointer items-center gap-2'>
-              <Checkbox className='checked:bg-primary-blue h-5 w-5' />
+              <Checkbox className='h-5 w-5 checked:bg-primary-blue' />
               <span>{tHeaders('credit')}</span>
             </label>
 
