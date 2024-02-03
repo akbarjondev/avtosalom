@@ -11,7 +11,7 @@ export const getCars = async ({ params }: GetCarsProps) => {
       'https://api.api-ninjas.com/v1/cars',
       {
         headers: {
-          'X-Api-Key': 'UQIKFLsUE/Vy51y1gRQq9Q==VDWuXuryAzUPUMxA',
+          'X-Api-Key': process.env.API_KEY,
         },
         params: {
           limit: 15,
