@@ -11,3 +11,13 @@ export type TopLink = {
   path: Pathname
   icon: string
 }
+
+export interface CarParams {
+  fuel_type?: string
+  model?: string
+  cylinder?: string
+  class?: string
+  make?: string
+  year?: string
+  limit?: number
+}

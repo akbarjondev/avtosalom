@@ -23,12 +23,15 @@
 		"catalog": "Catalog",
 		"dealers": "Dealers",
 		"logbook": "LogBook",
-		"region": "Any region",
+		"region": "All regions",
 		"reviews": "Reviews",
 		"video": "Video"
 	},
 	"Top": {
 		"free_post": "Free post",
+		"language": {
+			"title": ""
+		},
 		"links": {
 			"comparisons": "Comparisons",
 			"favorites": "Favorites",

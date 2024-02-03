@@ -23,12 +23,15 @@
 		"catalog": "Katalog",
 		"dealers": "Dillerlar",
 		"logbook": "LogBook",
-		"region": "Istalgan xudud",
+		"region": "Barcha xudud",
 		"reviews": "Sharhlar",
 		"video": "Video"
 	},
 	"Top": {
-		"free_post": "Tekin e'lon",
+		"free_post": "Bepul e'lon",
+		"language": {
+			"title": ""
+		},
 		"links": {
 			"comparisons": "Taqqoslash",
 			"favorites": "Saqlanganlar",
