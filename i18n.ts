@@ -1,8 +1,7 @@
 import {notFound} from 'next/navigation';
 import {getRequestConfig} from 'next-intl/server';
- 
-export const locales = ['uz', 'en'];
-export const defaultLocale = 'uz';
+import { locales } from '@/config/navigation';
+
  
 export default getRequestConfig(async ({locale}) => {
   // Validate that the incoming `locale` parameter is valid

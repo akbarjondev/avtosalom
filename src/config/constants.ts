@@ -1,6 +1,7 @@
-type Link = { label: { uz: string, en: string, [key: string]: string }, path: string, icon: string }
+import { TopLink } from "@/types"
 
-export const HEADER_TOP_LINKS: Link[] = [
+
+export const HEADER_TOP_LINKS: TopLink[] = [
   {
     label: {
       uz: 'Saqlanganlar',
