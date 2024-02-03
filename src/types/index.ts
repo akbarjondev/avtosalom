@@ -21,3 +21,15 @@ export interface CarParams {
   year?: string
   limit?: number
 }
+
+export type Tabs = 'all' | 'new' | 'old' | 'brand' | 'general'
+export type GeneralTabs = 'brand' | 'general'
+
+export type CategoryType = {
+  key: Tabs | GeneralTabs
+  title: {
+    en: string
+    uz: string
+    [key: string]: string
+  }
+}

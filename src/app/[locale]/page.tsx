@@ -1,3 +1,9 @@
+import { PageFilters } from '@/components/PageFilters/PageFilters'
+
 export default function Home() {
-  return <section className='container'>main content</section>
+  return (
+    <div className='container'>
+      <PageFilters />
+    </div>
+  )
 }

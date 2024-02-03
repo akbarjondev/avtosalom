@@ -4,10 +4,10 @@ import './../../styles/globals.css'
 import { Header } from '@/components/Header/Header'
 import { Link } from '@/config/navigation'
 import { Nav } from '@/components/Nav/Nav'
-import { getCars } from '@/lib/getCars'
 import { getModels } from '@/lib/getModels'
 import { getTranslations } from 'next-intl/server'
 import { Map } from 'lucide-react'
+import { IntlLayout } from '@/components/IntlLayout/IntlLayout'
 
 const openSans = Open_Sans({ subsets: ['latin'] })
 
@@ -44,7 +44,9 @@ export default async function RootLayout({
             </Link>
           </div>
         </div>
-        <main>{children}</main>
+        <IntlLayout>
+          <main>{children}</main>
+        </IntlLayout>
       </body>
     </html>
   )

@@ -3,10 +3,15 @@
 		"categories": {
 			"all": "Barcha avtomashinalar",
 			"new": "Yangi avtolar",
-			"old": "Eski avtolar"
+			"old": "Eski avtolar",
+			"types": {
+				"all": "Barchasi",
+				"new": "Yangi",
+				"old": "Haydalgan"
+			}
 		},
 		"credit": "Kreditga?",
-		"description": "{{offers}} taklif, ulardan {{outOf}} tasi faqat Avto.ru saytida joylashtirilgan.",
+		"description": "{offers} taklif, ulardan {outOf} tasi faqat Avto.ru saytida joylashtirilgan.",
 		"magazine": {
 			"allButton": "Barcha materiallar",
 			"description": "Yangiliklar, sharhlar, maqolalar",
@@ -23,7 +28,7 @@
 		"catalog": "Katalog",
 		"dealers": "Dillerlar",
 		"logbook": "LogBook",
-		"region": "Barcha xudud",
+		"region": "Barcha xududlar",
 		"reviews": "Sharhlar",
 		"video": "Video"
 	},

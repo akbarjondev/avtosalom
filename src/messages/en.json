@@ -3,10 +3,15 @@
 		"categories": {
 			"all": "All cars",
 			"new": "New cars",
-			"old": "Old cars"
+			"old": "Old cars",
+			"types": {
+				"all": "All",
+				"new": "New",
+				"old": "Old"
+			}
 		},
 		"credit": "Loan?",
-		"description": "{{offers}} offers, of which {{outOf}} are posted only on Avto.ru",
+		"description": "{offers} offers, of which {outOf} are posted only on Avto.ru",
 		"magazine": {
 			"allButton": "All materials",
 			"description": "News, reviews, articles",
