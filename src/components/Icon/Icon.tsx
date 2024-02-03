@@ -1,26 +1,32 @@
-import { Search, Heart, GitCompareArrows, MessageCircleMore, Presentation } from 'lucide-react';
+import {
+  Search,
+  Heart,
+  GitCompareArrows,
+  MessageCircleMore,
+  Presentation,
+} from 'lucide-react'
 
 interface IconProps {
-  className?: string;
-  icon: string;
-  size?: number;
-  color?: string;
+  className?: string
+  icon: string
+  size?: number
+  color?: string
 }
 
 export const Icon = (props: IconProps) => {
-  const {icon, ...rest} = props
+  const { icon, ...rest } = props
   switch (icon) {
     case 'heart':
-      return <Heart {...rest} />;
+      return <Heart {...rest} />
     case 'search':
-      return <Search {...rest} />;
+      return <Search {...rest} />
     case 'compare':
-      return <GitCompareArrows {...rest} />;
+      return <GitCompareArrows {...rest} />
     case 'message':
-      return <MessageCircleMore {...rest} />;
+      return <MessageCircleMore {...rest} />
     case 'presentation':
-      return <Presentation {...rest} />;
+      return <Presentation {...rest} />
     default:
-      return <></>;
+      return <></>
   }
 }

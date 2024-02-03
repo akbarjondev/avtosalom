@@ -21,7 +21,7 @@ export const LanguageSwitcher = ({ className }: LanguageSwitcherProps) => {
         <DropdownMenuContent className='flex flex-col gap-1'>
           {locales.map((locale) => (
             <Link
-              className='p-2 hover:bg-gray-100 rounded'
+              className='rounded p-2 hover:bg-gray-100'
               href='/'
               locale={locale}
               key={locale}

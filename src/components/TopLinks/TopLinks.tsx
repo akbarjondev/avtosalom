@@ -4,7 +4,7 @@ import { Link } from '@/config/navigation'
 import { Icon } from '../Icon/Icon'
 import { locales } from '@/config/navigation'
 
-type Locale = typeof locales[number]
+type Locale = (typeof locales)[number]
 
 export const TopLinks = () => {
   const locale = useLocale()

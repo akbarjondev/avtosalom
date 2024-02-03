@@ -1,45 +1,44 @@
-import { TopLink } from "@/types"
-
+import { TopLink } from '@/types'
 
 export const HEADER_TOP_LINKS: TopLink[] = [
   {
     label: {
       uz: 'Saqlanganlar',
-      en: 'Favorites'
+      en: 'Favorites',
     },
     path: '/favorites',
-    icon: 'heart'
+    icon: 'heart',
   },
   {
     label: {
       uz: 'Qidirish',
-      en: 'Search'
+      en: 'Search',
     },
     path: '/search',
-    icon: 'search'
+    icon: 'search',
   },
   {
     label: {
       uz: 'Taqqoslash',
-      en: 'Comparison'
+      en: 'Comparison',
     },
     path: '/comparison',
-    icon: 'compare'
+    icon: 'compare',
   },
   {
     label: {
       uz: 'Xabarlar',
-      en: 'Messages'
+      en: 'Messages',
     },
     path: '/messages',
-    icon: 'message'
+    icon: 'message',
   },
   {
     label: {
       uz: 'Sotish',
-      en: 'Sell'
+      en: 'Sell',
     },
     path: '/sell',
-    icon: 'presentation'
-  }
+    icon: 'presentation',
+  },
 ]
