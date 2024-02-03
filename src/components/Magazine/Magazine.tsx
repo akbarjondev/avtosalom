@@ -25,7 +25,7 @@ export const Magazine = ({ className }: MagazineProps) => {
               <Link
                 href={'/'}
                 className='hover:text-primary-red'
-                key={news.image}
+                key={news.title[locale] + index}
               >
                 <article className='flex flex-row-reverse items-center gap-2.5'>
                   <h4 className='text-[15px] leading-4'>
