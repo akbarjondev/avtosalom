@@ -28,13 +28,15 @@
 		"video": "Video"
 	},
 	"Top": {
-		"comparisons": "Comparisons",
-		"favorites": "Favorites",
 		"free_post": "Free post",
+		"links": {
+			"comparisons": "Comparisons",
+			"favorites": "Favorites",
+			"messages": "Messages",
+			"search": "Search",
+			"sell": "I sell"
+		},
 		"login": "Login",
-		"messages": "Messages",
-		"search": "Search",
-		"search_placeholder": "Search by advertisements",
-		"sell": "I sell"
+		"search_placeholder": "Search by advertisements"
 	}
 }

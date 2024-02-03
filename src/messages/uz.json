@@ -28,13 +28,15 @@
 		"video": "Video"
 	},
 	"Top": {
-		"comparisons": "Taqqoslash",
-		"favorites": "Saqlanganlar",
 		"free_post": "Tekin e'lon",
+		"links": {
+			"comparisons": "Taqqoslash",
+			"favorites": "Saqlanganlar",
+			"messages": "Xabarlar",
+			"search": "Qidirish",
+			"sell": "Sotaman"
+		},
 		"login": "Kirish",
-		"messages": "Xabarlar",
-		"search": "Qidirish",
-		"search_placeholder": "E'lon bo'yicha qidirish",
-		"sell": "Sotaman"
+		"search_placeholder": "E'lon bo'yicha qidirish"
 	}
 }

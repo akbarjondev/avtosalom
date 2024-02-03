@@ -12,9 +12,16 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '3rem',
+      },
       screens: {
-        "2xl": "1400px",
+        sm: '100%',
+        md: '100%',
+        lg: '1024px',
+        xl: '1308px',
       },
     },
     extend: {
@@ -27,6 +34,8 @@ const config = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          red: 'rgb(230, 0, 0)',
+          green: 'rgb(54, 281, 85)',
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
