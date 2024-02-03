@@ -1,4 +1,5 @@
-import { PageFilters } from '@/components/PageFilters/PageFilters'
+import { PageTop } from '@/components/PageTop/PageTop'
+import { Recommendations } from '@/components/Recommendations/Recommendations'
 import { getCars } from '@/lib/getCars'
 
 export default async function Home() {
@@ -13,8 +14,9 @@ export default async function Home() {
   const uniqueMakers = Array.from(new Set(makers))
 
   return (
-    <div className='container'>
-      <PageFilters carModels={uniqueMakers} />
+    <div className='container pb-52'>
+      <PageTop className='mb-10' carModels={uniqueMakers} />
+      <Recommendations cars={cars} />
     </div>
   )
 }

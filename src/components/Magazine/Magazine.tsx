@@ -5,7 +5,7 @@ import { Link } from '@/config/navigation'
 import useEmblaCarousel from 'embla-carousel-react'
 import AutoPlay from 'embla-carousel-autoplay'
 import { Button } from '../ui/button'
-import { cn } from '@/lib/utils'
+import { cn, numberRandomizer } from '@/lib/utils'
 
 interface MagazineProps {
   className?: string
@@ -22,7 +22,7 @@ export const Magazine = ({ className }: MagazineProps) => {
       <p className='text-sm text-gray-500'>{t('description')}</p>
       <div className='embla mb-6'>
         <div ref={embleRef} className='mt-10 h-[350px] overflow-hidden'>
-          <ol className='flex flex-col gap-5'>
+          <ol className='flex flex-col gap-4'>
             {news.map((news, index) => (
               <Link
                 href={'/'}
@@ -36,7 +36,7 @@ export const Magazine = ({ className }: MagazineProps) => {
                   <Image
                     className='rounded-lg'
                     alt={news.title[locale]}
-                    src={`https://picsum.photos/id/${index}/72/72`}
+                    src={`https://picsum.photos/id/${numberRandomizer(2, 80)}/72/72`}
                     width={72}
                     height={72}
                   />
@@ -46,7 +46,7 @@ export const Magazine = ({ className }: MagazineProps) => {
           </ol>
         </div>
       </div>
-      <Button className='bg-blue-200 text-black hover:text-white'>
+      <Button className='bg-blue-200 font-normal text-black hover:text-white'>
         {t('button')}
       </Button>
     </div>

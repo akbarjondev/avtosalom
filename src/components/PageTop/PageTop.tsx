@@ -13,12 +13,12 @@ import { cn, numberRandomizer } from '@/lib/utils'
 import { Magazine } from '../Magazine/Magazine'
 import { Button } from '../ui/button'
 
-interface PageFiltersProps {
+interface PageTopProps {
   className?: string
   carModels: string[]
 }
 
-export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
+export const PageTop = ({ carModels, className }: PageTopProps) => {
   const tCats = useTranslations('Header.categories')
   const tHeaders = useTranslations('Header')
 
@@ -26,9 +26,9 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
   const [generalTab, setGeneralTab] = useState<GeneralTabs>('general')
 
   return (
-    <section className={cn('mb-52', className)}>
-      <div className='wrapper mt-9 grid grid-cols-9 gap-7'>
-        <div className='left col-span-7 flex h-full grow flex-col'>
+    <section className={cn(className)}>
+      <div className='wrapper mt-9 flex gap-7'>
+        <div className='left flex grow flex-col self-stretch'>
           <div className='flex items-center justify-between'>
             <div>
               <h1 className='mb-3 text-3xl font-bold text-black'>
@@ -94,11 +94,11 @@ export const PageFilters = ({ carModels, className }: PageFiltersProps) => {
                 </li>
               ))}
           </ol>
-          <Button className='mt-auto self-end bg-primary-blue px-20 text-white'>
+          <Button className='mt-auto self-end bg-primary-blue px-20 font-normal text-white'>
             {tHeaders('button', { offers: '122 455' })}
           </Button>
         </div>
-        <Magazine className='right col-span-2' />
+        <Magazine className='right max-w-[285px] grow' />
       </div>
     </section>
   )
