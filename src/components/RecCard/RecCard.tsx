@@ -1,3 +1,5 @@
+'use client'
+
 import { Link } from '@/config/navigation'
 import { cn, numberRandomizer } from '@/lib/utils'
 import { CarParams, Pathname } from '@/types'

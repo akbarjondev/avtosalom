@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import teaserImage from '@/assets/images/teaser.png'
@@ -98,7 +98,9 @@ export const PageTop = ({ carModels, className }: PageTopProps) => {
             {tHeaders('button', { offers: '122 455' })}
           </Button>
         </div>
-        <Magazine className='right max-w-[285px] grow' />
+        <div className='w-full max-w-[390px]'>
+          <Magazine className='right max-w-[285px] grow' />
+        </div>
       </div>
     </section>
   )

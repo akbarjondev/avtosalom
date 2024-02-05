@@ -36,7 +36,7 @@ export const Magazine = ({ className }: MagazineProps) => {
                   <Image
                     className='rounded-lg'
                     alt={news.title[locale]}
-                    src={`https://picsum.photos/id/${numberRandomizer(2, 80)}/72/72`}
+                    src={`https://picsum.photos/id/${index + 72}/72/72`}
                     width={72}
                     height={72}
                   />
