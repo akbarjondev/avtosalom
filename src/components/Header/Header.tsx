@@ -5,6 +5,7 @@ import { SearchBar } from '../SearchBar/SearchBar'
 import { TopLinks } from '../TopLinks/TopLinks'
 import { Button } from '../ui/button'
 import { LanguageSwitcher } from '../LanguageSwitcher/LanguageSwitcher'
+import { Link } from '@/config/navigation'
 
 export const Header = () => {
   const t = useTranslations('Top')
@@ -16,7 +17,7 @@ export const Header = () => {
       <TopLinks />
       <div className='ml-auto flex gap-3'>
         <Button className='bg-gray-200 text-gray-900 hover:text-white'>
-          {t('login')}
+          <Link href={'/login'}>{t('login')}</Link>
         </Button>
         <Button className='bg-primary-green text-white'>
           {t('free_post')}

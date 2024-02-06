@@ -12,8 +12,15 @@ import { IntlLayout } from '@/components/IntlLayout/IntlLayout'
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AvtoSalom',
+  title: {
+    default: 'AvtoSalom | Avtomobil sotib olish',
+    template: '%s | AvtoSalom | Avtomobil sotib olish',
+  },
   description: 'Avtomobillarni sotib olish va sotish uchun eng yaxshi joy',
+  applicationName: 'AvtoSalom',
+  referrer: 'same-origin',
+  keywords:
+    'avtomobil, sotib olish, avto, mashina, mashina narx, sotish, sotuv, zapchastlar, avtozapchastlar, avto salon, salon, salonlar',
 }
 
 export default async function RootLayout({

@@ -9,6 +9,8 @@ export const localePrefix = 'always'
 
 export const pathnames = {
   '/': '/',
+  '/login': '/login',
+  '/dashboard': '/dashboard',
   '/search': {
     uz: '/qidirish',
     en: '/search',
